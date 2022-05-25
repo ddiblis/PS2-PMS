@@ -3599,9 +3599,9 @@
     (property "Datasheet" "" (id 3) (at 259.08 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe97601489c))
-    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe97601489c))
-    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe97601489c))
+    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe9760148a0))
+    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe9760148a0))
+    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe9760148a0))
   )
 
   (symbol (lib_id "power:Earth") (at 17.78 40.64 0) (unit 1)
@@ -4693,7 +4693,7 @@
     (property "Reference" "S?" (id 0) (at 168.91 40.6399 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "" (id 1) (at 160.02 39.37 90)
+    (property "Value" "button" (id 1) (at 160.02 39.37 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "digikey-footprints:PushButton_12x12mm_THT_GPTS203211B" (id 2) (at 162.56 36.83 0)
@@ -5146,7 +5146,7 @@
   (symbol (lib_id "ps2-pms:bq2407x") (at 147.32 113.03 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 96aaca5e-0f64-4799-8bc0-ad1b6aca8450)
-    (property "Reference" "U?" (id 0) (at 147.32 113.03 0))
+    (property "Reference" "U4" (id 0) (at 147.32 113.03 0))
     (property "Value" "bq2407x" (id 1) (at 147.32 109.22 0))
     (property "Footprint" "" (id 2) (at 147.32 113.03 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -5209,7 +5209,7 @@
   (symbol (lib_id "Device:C_Polarized_Small_US") (at 262.89 22.86 0) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 9d72ec0b-ea88-439d-b756-f0d0a946897f)
-    (property "Reference" "C1" (id 0) (at 265.43 21.59 0)
+    (property "Reference" "C101" (id 0) (at 265.43 21.59 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "1µF" (id 1) (at 265.43 24.13 0)
@@ -5862,15 +5862,15 @@
     (property "Datasheet" "" (id 3) (at 240.03 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd929f3))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd929f3))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd929f3))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd929f3))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd929f3))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd929f3))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd929f3))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd929f3))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd929f3))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
   )
 
   (symbol (lib_id "Device:C_Small") (at 92.71 77.47 270) (unit 1)
@@ -5898,7 +5898,7 @@
     (property "Reference" "C16" (id 0) (at 176.53 41.91 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "" (id 1) (at 179.07 43.18 0)
+    (property "Value" "47uF" (id 1) (at 179.07 43.18 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 177.8 36.83 0)
@@ -6142,9 +6142,6 @@
     (path "/5ee98f39-103a-49e6-8d09-c67de3099482"
       (reference "BT?") (unit 1) (value "Battery_Cell") (footprint "")
     )
-    (path "/9d72ec0b-ea88-439d-b756-f0d0a946897f"
-      (reference "C1") (unit 1) (value "1µF") (footprint "")
-    )
     (path "/c9ca6bc0-254d-4703-8256-9c8ce6c5a9a7"
       (reference "C1") (unit 1) (value "1µF") (footprint "")
     )
@@ -6192,6 +6189,9 @@
     )
     (path "/efa726b9-8e7c-45eb-96e6-2a2aec4d38b3"
       (reference "C16") (unit 1) (value "47uF") (footprint "")
+    )
+    (path "/9d72ec0b-ea88-439d-b756-f0d0a946897f"
+      (reference "C101") (unit 1) (value "1µF") (footprint "")
     )
     (path "/17920d38-4202-4d9b-a3fe-7fc83f322ad5"
       (reference "C?") (unit 1) (value "22uF/6.3v") (footprint "")
@@ -6385,6 +6385,9 @@
     (path "/e7f6afb2-d06d-4940-abee-3decd3c43615"
       (reference "U3") (unit 1) (value "TPS61253") (footprint "")
     )
+    (path "/96aaca5e-0f64-4799-8bc0-ad1b6aca8450"
+      (reference "U4") (unit 1) (value "bq2407x") (footprint "")
+    )
     (path "/0108fbbd-bb2f-4247-9e7c-8ed949a2604f"
       (reference "U?") (unit 1) (value "BC847C") (footprint "")
     )
@@ -6393,9 +6396,6 @@
     )
     (path "/9589205f-693b-42a2-bb81-726f69a2e554"
       (reference "U?") (unit 1) (value "TL431") (footprint "")
-    )
-    (path "/96aaca5e-0f64-4799-8bc0-ad1b6aca8450"
-      (reference "U?") (unit 1) (value "bq2407x") (footprint "")
     )
     (path "/b04075d2-3602-43e6-92be-9dd21513a200"
       (reference "U?") (unit 1) (value "SC174") (footprint "")
