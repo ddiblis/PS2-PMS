@@ -3599,9 +3599,9 @@
     (property "Datasheet" "" (id 3) (at 259.08 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe9760148a0))
-    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe9760148a0))
-    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe9760148a0))
+    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe9760148a2))
+    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe9760148a2))
+    (pin "" (uuid cf3bbb53-7114-4d94-b5e1-dbe9760148a2))
   )
 
   (symbol (lib_id "power:Earth") (at 17.78 40.64 0) (unit 1)
@@ -3942,9 +3942,9 @@
   )
 
   (symbol (lib_id "Transistor_FET:AO3401A") (at 148.59 67.31 180) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 297294a8-d3af-4a2a-b2ff-ea991d460add)
-    (property "Reference" "Q?" (id 0) (at 142.24 66.0399 0)
+    (property "Reference" "CSD22202W15" (id 0) (at 139.7 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "P-channel mosfet" (id 1) (at 142.24 68.5799 0)
@@ -4321,7 +4321,7 @@
   (symbol (lib_id "Device:Q_NPN_BCE") (at 172.72 31.75 90) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 5405a41e-5337-4297-8bac-d2336ab934c1)
-    (property "Reference" "Q?" (id 0) (at 171.45 26.67 0)
+    (property "Reference" "BC846A" (id 0) (at 171.45 26.67 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_NPN_BCE" (id 1) (at 175.26 26.67 0)
@@ -5862,15 +5862,15 @@
     (property "Datasheet" "" (id 3) (at 240.03 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
-    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a03))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a0b))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a0b))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a0b))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a0b))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a0b))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a0b))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a0b))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a0b))
+    (pin "" (uuid eff6d5e5-f241-413e-825d-2c6d7dd92a0b))
   )
 
   (symbol (lib_id "Device:C_Small") (at 92.71 77.47 270) (unit 1)
@@ -5951,7 +5951,7 @@
   (symbol (lib_id "Device:Q_NPN_BCE") (at 162.56 62.23 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid fdd46e6f-eeb8-49c8-b304-5c975f4f1f28)
-    (property "Reference" "Q?" (id 0) (at 173.99 63.5 0)
+    (property "Reference" "BC846A" (id 0) (at 173.99 63.5 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Q_NPN_BCE" (id 1) (at 173.99 66.04 0)
@@ -6139,6 +6139,12 @@
     (path "/f0d57cc9-c4de-4eb8-97e9-9df19eea248e"
       (reference "#PWR?") (unit 1) (value "GND") (footprint "")
     )
+    (path "/5405a41e-5337-4297-8bac-d2336ab934c1"
+      (reference "BC846A") (unit 1) (value "Q_NPN_BCE") (footprint "")
+    )
+    (path "/fdd46e6f-eeb8-49c8-b304-5c975f4f1f28"
+      (reference "BC846A") (unit 1) (value "Q_NPN_BCE") (footprint "")
+    )
     (path "/5ee98f39-103a-49e6-8d09-c67de3099482"
       (reference "BT?") (unit 1) (value "Battery_Cell") (footprint "")
     )
@@ -6247,6 +6253,9 @@
     (path "/ef05591f-673b-4c8c-a0a5-8a246f1538bb"
       (reference "C?") (unit 1) (value "10uF/6.3V") (footprint "")
     )
+    (path "/297294a8-d3af-4a2a-b2ff-ea991d460add"
+      (reference "CSD22202W15") (unit 1) (value "P-channel mosfet") (footprint "Package_TO_SOT_SMD:SOT-23")
+    )
     (path "/8863e1d8-08ba-4f33-9d6e-204128050245"
       (reference "D?") (unit 1) (value "LED_ARBG") (footprint "")
     )
@@ -6261,15 +6270,6 @@
     )
     (path "/59ff2921-a262-47d7-869b-983d85fdef03"
       (reference "L?") (unit 1) (value "2.0uH") (footprint "")
-    )
-    (path "/297294a8-d3af-4a2a-b2ff-ea991d460add"
-      (reference "Q?") (unit 1) (value "P-channel mosfet") (footprint "Package_TO_SOT_SMD:SOT-23")
-    )
-    (path "/5405a41e-5337-4297-8bac-d2336ab934c1"
-      (reference "Q?") (unit 1) (value "Q_NPN_BCE") (footprint "")
-    )
-    (path "/fdd46e6f-eeb8-49c8-b304-5c975f4f1f28"
-      (reference "Q?") (unit 1) (value "Q_NPN_BCE") (footprint "")
     )
     (path "/6b9147be-ef3f-40e6-b07f-fb9b1328bed0"
       (reference "R1") (unit 1) (value "18k") (footprint "")
